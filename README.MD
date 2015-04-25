@@ -5,6 +5,8 @@ output: html_document
 
 # Getting and Cleaning Data Course Project
 
+To run, type in R -->   source("run_analysis.R")
+
 ## Requirements:
 You should create one R script called run_analysis.R that does the following.
 
