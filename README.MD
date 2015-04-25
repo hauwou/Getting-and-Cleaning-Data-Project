@@ -56,11 +56,11 @@ using cbind to merge the 3 dataframes into 1 complete table
 
 use grep to extract the column names that match against "mean or std"
 
-rep will return a data frame that contain only the column indexes of the match
+grep will return a data frame that contain only the column indexes of the match
 
-repl (l stands for LOGICAL) will return a true/false dataframe, I prefer the grep()
+grepl (l stands for LOGICAL) will return a true/false dataframe, I prefer the grep()
 
-pply the filtered column indexes to the complete table to subset out the table of desired columns
+apply the filtered column indexes to the complete-table to subset out the table of desired columns
 
 **see code for details
 
